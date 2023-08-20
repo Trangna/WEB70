@@ -1,5 +1,5 @@
 {
-  "name": "mern stack social apps",
+  "name": "social-app-server",
   "version": "1.0.0",
   "description": "Learn expressjs and middlware",
   "main": "server.js",
@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon ./server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently  \"npm run server\""
+    "dev": "concurrently  \"npm run server\"",
+    "start": "npm start"
   },
   "author": "",
   "license": "ISC",
